@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dashboard-control/static/css/main.b18a71fa.css",
-    "main.js": "/Dashboard-control/static/js/main.f492acbd.js",
+    "main.js": "/Dashboard-control/static/js/main.3c3e20bb.js",
     "static/media/Ibrahim Nady.jpg": "/Dashboard-control/static/media/Ibrahim Nady.bf28ea98cd6dbc4c0f1b.jpg",
     "static/media/fa-solid-900.ttf": "/Dashboard-control/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
     "static/media/fa-brands-400.ttf": "/Dashboard-control/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
@@ -13,10 +13,10 @@
     "static/media/fa-v4compatibility.woff2": "/Dashboard-control/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/Dashboard-control/index.html",
     "main.b18a71fa.css.map": "/Dashboard-control/static/css/main.b18a71fa.css.map",
-    "main.f492acbd.js.map": "/Dashboard-control/static/js/main.f492acbd.js.map"
+    "main.3c3e20bb.js.map": "/Dashboard-control/static/js/main.3c3e20bb.js.map"
   },
   "entrypoints": [
     "static/css/main.b18a71fa.css",
-    "static/js/main.f492acbd.js"
+    "static/js/main.3c3e20bb.js"
   ]
 }
