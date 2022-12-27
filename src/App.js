@@ -15,7 +15,7 @@ function App() {
   const {darkMode} = useContext(DarkModeContext)
   return (
     <div className={darkMode ? "app dark" : "app "}>
-  
+  <Home/>
         <Routes>
           <Route path='*' element={<Home/>}/>
           <Route path="/">
