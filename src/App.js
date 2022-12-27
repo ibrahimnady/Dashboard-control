@@ -1,4 +1,4 @@
-import {Routes, Route } from "react-router-dom";
+import {Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Login from './pages/login/Login';
 import List from './pages/list/List';
@@ -15,7 +15,9 @@ function App() {
   const {darkMode} = useContext(DarkModeContext)
   return (
     <div className={darkMode ? "app dark" : "app "}>
+      <div> <Link to={"home"}>reload</Link></div>
         <Routes>
+          <Route path="home" element={<Home/>}/>
           <Route path='*' element={<Home/>}/>
           <Route path="/">
             <Route index element={<Home />} />
