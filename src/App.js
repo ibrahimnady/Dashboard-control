@@ -17,8 +17,8 @@ function App() {
     <div className={darkMode ? "app dark" : "app "}>
       <BrowserRouter>
         <Routes>
+          <Route path='*' element={<h1>404 Not Found</h1>}/>
           <Route path="/">
-            <Route path='*' element={<h1>404 Not Found</h1>}/>
             <Route index element={<Home />} />
             <Route path="login" element={<Login />} />
             <Route path="users">
