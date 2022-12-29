@@ -16,7 +16,7 @@ function App() {
   return (
     <div className={darkMode ? "app dark" : "app "}>
       <div> <Link to={"home"}>reload</Link></div>
-        <Routes>
+        <Routes basename="/tothepoint_Dashboard-control">
           <Route path="home" element={<Home/>}/>
           <Route path='*' element={<Home/>}/>
           <Route path="/">
