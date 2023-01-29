@@ -5,15 +5,15 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { DarkModeContextProvider } from './context/darkModeContext';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
-      <DarkModeContextProvider>
-        <App />
-      </DarkModeContextProvider>
-    </BrowserRouter>
+  <Router>
+    <DarkModeContextProvider>
+      <App />
+    </DarkModeContextProvider>
+  </Router>
 );
 
 
