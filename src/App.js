@@ -15,7 +15,6 @@ function App() {
   const {darkMode} = useContext(DarkModeContext)
   return (
     <div className={darkMode ? "app dark" : "app "}>
-      <div> <Link to={"home"}>reload</Link></div>
         <Routes>
           <Route path="home" element={<Home/>}/>
           <Route path='*' element={<Home/>}/>
